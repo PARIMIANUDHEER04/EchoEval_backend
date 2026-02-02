@@ -26,7 +26,6 @@ packaging==26.0
 pip==25.3
 postgrest==2.27.2
 propcache==0.4.1
-PyAudio==0.2.14
 pycparser==3.0
 pydantic==2.12.5
 pydantic_core==2.41.5
