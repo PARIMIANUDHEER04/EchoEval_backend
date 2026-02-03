@@ -51,7 +51,6 @@ tenacity==9.1.2
 typing_extensions==4.15.0
 typing-inspection==0.4.2
 urllib3==2.6.3
-uvicorn==0.40.0
-vapi-python==0.1.9
+uvicorn==0.40.0git 
 websockets==15.0.1
 yarl==1.22.0
