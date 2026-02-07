@@ -112,7 +112,7 @@ ROLES = {
     },
     
     "team_lead": {
-        "title": "Team Lead",
+        "title": "Team Lead" ,
         "description": "Technical leadership and team management",
         "assistant_id": os.getenv("ASSISTANT_ID_TEAM_LEAD"),
         "criteria": [
