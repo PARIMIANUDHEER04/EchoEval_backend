@@ -97,10 +97,10 @@ assistant_to_session: Dict[str, str] = {}
 # ============================================================================
 
 ROLES = {
-    "project_manager": {
-        "title": "Project Manager",
-        "description": "Project delivery and team management evaluation",
-        "assistant_id": os.getenv("ASSISTANT_ID_PROJECT_MANAGER"),
+    "ai_coach": {
+        "title": "Assitant Coach",
+        "description": "Ai coach to enhance speaking skills",
+        "assistant_id": os.getenv("ASSISTANT_ID_COMMUNICATION_COACH"),
         "criteria": [
             "Problem Solving",
             "Leadership",
@@ -108,7 +108,7 @@ ROLES = {
             "Accountability",
             "Planning"
         ],
-        "scenario": "We're 3 months behind schedule and 40% over budget on the Bangalore project. What happened and what's your plan?"
+        "scenario":""
     },
     
     "team_lead": {
